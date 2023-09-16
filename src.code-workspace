@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "src"
+		}
+	],
+	"settings": {
+		"editor.quickSuggestions": {
+			"strings": "on"
+		},
+		"emmet.useInlineCompletions": true
+	}
+}

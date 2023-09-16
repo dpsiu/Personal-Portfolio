@@ -1,0 +1,16 @@
+// {
+//     "editor.quickSuggestions": {
+//         "strings": "on"
+//     }
+// }
+{
+    "tailwindCSS.includeLanguages": {
+        "html": "html",
+        "javascript": "javascript",
+        "css": "css"
+    },
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "editor.inlineSuggest.enabled": true
+}
