@@ -24,7 +24,7 @@ export default function App() {
                 </li>
             </ul>
             <ul className="flex items-center">
-            <h1 className="hover:transition-colors"><Link to="/Pages/About.jsx">About</Link></h1>
+            <h1 className="hover:"><Link to="/Pages/About.jsx">About</Link></h1>
               <li className=" bg-gradient-to-r from-indigo-500 to-orange-500 text-white px-4 py-2 rounded-md ml-8">
                 <a href="https://drive.google.com/file/d/1DPnF6CqpTiy3mDw5hLNS6x6YxuaDcr44/view?usp=drive_link">
                   Resume
