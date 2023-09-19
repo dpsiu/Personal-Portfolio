@@ -12,8 +12,8 @@ export default function App() {
   return (
     <div className={darkMode ? "dark" : ""}>
       <section className="bg-white min-h-screen px-10 items-center md:px-25 lg:px-40 min-w-fit dark:bg-zinc-700 dark:text-white">
-        <nav className="py-10 mb-12 flex justify-between items-center dark: ">
-          <h1 className="text-l ">Denver Siu</h1>
+        <nav className="py-10 mb-12 flex justify-between items-center text-xl ">
+          <h1 className="">Denver Siu</h1>
           <ul className="flex items-center">
             <li className="cursor-pointer">
               <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} />
@@ -26,16 +26,14 @@ export default function App() {
           </ul>
         </nav>
         <div className="text-center p-10 ">
-          <h2 className="text-5xl py-2 text-indigo-500 font-medium md:text-6xl dark:text-indigo-400">
+          <h2 className="text-5xl py-2 text-indigo-500 font-semibold md:text-6xl dark:text-indigo-400">
             Denver Siu
           </h2>
           <h3 className="text-2xl py-2 md:text-3xl">Software Developer</h3>
           <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white">
-            UX and Web Designer turned software developer. UX and Web Designer
-            turned software developer. UX and Web Designer turned software
-            developer.
+            As a web designer turned web developer, I'm thrilled to make the transition and create intuitive and engaging solutions.
           </p>
-          <ul className="text-3xl flex justify-center gap-16 text-gray-600">
+          <ul className="text-4xl flex justify-center gap-16 text-gray-600">
             <li>
               <a href="https://www.linkedin.com/in/denver-siu/">
                 <AiFillLinkedin className="text-indigo-500 dark:text-indigo-400" />
@@ -51,47 +49,50 @@ export default function App() {
         </div>
         <section>
           <div className="text-center">
-            <h3 className="text-3xl pt-10 font-semibold text-indigo-500 dark:text-indigo-400">
+            <h3 className="text-4xl pt-10 font-semibold text-indigo-500 dark:text-indigo-400">
               Projects
             </h3>
           </div>
         </section>
-        <div className="text-center shadow-lg shadow-slate-400 p-10 rounded-xl my-10 mx-auto max-w-3xl dark:text-white dark:shadow-slate-800 dark:bg-zinc-600">
-          <h3 className="text-lg font-medium pt-8 pb-6 ">
-            Shopping Cart Application
-          </h3>
-          <a href="https://denver-siu-shopping-cart.netlify.app/">
-            <img
-              src="Images/Shop Cart Homepage.jpg"
-              alt="Font page screenshot of the shopping cart application"
-              className="rounded-lg py-4"
-            />
-          </a>
-          <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white">
-            This project is a mock shopping cart application built using React.
-            Meant to demonstrate and apply various concepts such as component
-            structure, routing, state management, and interaction with APIs.
-          </p>
-          <ul className="flex">
-            <li></li>
-          </ul>
-        </div>
-        <div className="text-center shadow-lg shadow-slate-400 p-10 rounded-xl my-10 mx-auto max-w-3xl dark:text-white dark:shadow-slate-800 dark:bg-zinc-600">
-          <h3 className="text-lg font-medium pt-8 pb-6">
-            CV Application Creator
-          </h3>
-          <a href="https://denver-siu-cv-application.netlify.app/">
-            <img
-              src="Images/Layer 1.jpg"
-              alt="Screenshot of CV Application Project's front page"
-              className="rounded-lg py-4"
-            />
-          </a>
-          <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white">
-            The CV application allows users to input general information,
-            educational experiences, and practical work experiences which are
-            then rendered to the right as a preview.
-          </p>
+        <div className="lg:flex gap-10">
+          <div className="text-center shadow-lg shadow-slate-400 p-10 rounded-xl my-10 mx-auto max-w-3xl dark:text-white dark:shadow-slate-800 dark:bg-zinc-600">
+            <h3 className="text-xl font-semibold pt-8 pb-6 ">
+              Shopping Cart Application
+            </h3>
+            <a href="https://denver-siu-shopping-cart.netlify.app/">
+              <img
+                src="Images/Shop Cart Homepage.jpg"
+                alt="Font page screenshot of the shopping cart application"
+                className="rounded-lg py-4"
+              />
+            </a>
+            <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white">
+              This project is a mock shopping cart application built using
+              React. Meant to demonstrate and apply various concepts such as
+              component structure, routing, state management, and interaction
+              with APIs.
+            </p>
+            <ul className="flex">
+              <li></li>
+            </ul>
+          </div>
+          <div className="text-center shadow-lg shadow-slate-400 p-10 rounded-xl my-10 mx-auto max-w-3xl dark:text-white dark:shadow-slate-800 dark:bg-zinc-600">
+            <h3 className="text-xl font-semibold pt-8 pb-6">
+              CV Application Creator
+            </h3>
+            <a href="https://denver-siu-cv-application.netlify.app/">
+              <img
+                src="Images/Layer 1.jpg"
+                alt="Screenshot of CV Application Project's front page"
+                className="rounded-lg py-4"
+              />
+            </a>
+            <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white">
+              The CV application allows users to input general information,
+              educational experiences, and practical work experiences which are
+              then rendered to the right as a preview.
+            </p>
+          </div>
         </div>
         <div className="text-l flex justify-center items-center gap-4 text-gray-800 py-10 dark:text-white">
           <p>2023</p>
