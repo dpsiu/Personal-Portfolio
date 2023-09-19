@@ -15,10 +15,10 @@ export default function App() {
         <nav className="py-10 mb-12 flex justify-between items-center text-xl ">
           <h1 className="">Denver Siu</h1>
           <ul className="flex items-center">
-            <li className="cursor-pointer">
+            <li className="cursor-pointer text-indigo-500 dark:text-orange-500">
               <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} />
             </li>
-            <li className=" bg-gradient-to-r from-indigo-500 to-orange-600 text-white px-4 py-2 rounded-md ml-8">
+            <li className=" bg-gradient-to-r from-indigo-500 to-orange-500 text-white px-4 py-2 rounded-md ml-8">
               <a href="https://drive.google.com/file/d/1DPnF6CqpTiy3mDw5hLNS6x6YxuaDcr44/view?usp=drive_link">
                 Resume
               </a>
@@ -66,14 +66,17 @@ export default function App() {
                 className="rounded-lg py-4"
               />
             </a>
-            <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white">
+            <p className="text-md text-left py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white">
               This project is a mock shopping cart application built using
               React. Meant to demonstrate and apply various concepts such as
               component structure, routing, state management, and interaction
               with APIs.
             </p>
-            <ul className="flex">
-              <li></li>
+            <ul className="flex flex-wrap text-sm text-gray-800 gap-2 max-w-fit">
+              <li className="bg-indigo-400 text-white py-2 px-4 rounded-3xl">HTML</li>
+              <li className="bg-indigo-400 text-white py-2 px-4 rounded-3xl">CSS</li>
+              <li className="bg-indigo-400 text-white py-2 px-4 rounded-3xl">JavaScript</li>
+              <li className="bg-indigo-400 text-white py-2 px-4 rounded-3xl">React</li>
             </ul>
           </div>
           <div className="text-center shadow-lg shadow-slate-400 p-10 rounded-xl my-10 mx-auto max-w-3xl dark:text-white dark:shadow-slate-800 dark:bg-zinc-600">
@@ -87,11 +90,17 @@ export default function App() {
                 className="rounded-lg py-4"
               />
             </a>
-            <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white">
+            <p className="text-md text-left py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white">
               The CV application allows users to input general information,
               educational experiences, and practical work experiences which are
               then rendered to the right as a preview.
             </p>
+            <ul className="flex flex-wrap text-sm text-gray-800 gap-2 max-w-fit">
+              <li className="bg-indigo-400 text-white py-2 px-4 rounded-3xl">HTML</li>
+              <li className="bg-indigo-400 text-white py-2 px-4 rounded-3xl">CSS</li>
+              <li className="bg-indigo-400 text-white py-2 px-4 rounded-3xl">JavaScript</li>
+              <li className="bg-indigo-400 text-white py-2 px-4 rounded-3xl">React</li>
+            </ul>
           </div>
         </div>
         <div className="text-l flex justify-center items-center gap-4 text-gray-800 py-10 dark:text-white">
