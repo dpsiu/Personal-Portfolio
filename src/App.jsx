@@ -6,6 +6,7 @@ import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import { Route, Routes, Link } from "react-router-dom";
 import { About } from "../Pages/About";
 import { Home } from "../Pages/Home";
+import { Footer } from "../Pages/Footer"
 
 export default function App() {
   const [darkMode, setDarkMode] = useState(true);
@@ -38,6 +39,7 @@ export default function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
           </Routes>
+          <Footer/>
         </section>
       </div>
     </>
