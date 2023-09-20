@@ -38,13 +38,23 @@ export function Home() {
           <h3 className="text-xl font-semibold pt-8 pb-6 ">
             Shopping Cart Application
           </h3>
-          <a href="https://denver-siu-shopping-cart.netlify.app/">
+          <a
+            data-flickr-embed="true"
+            href="https://www.flickr.com/photos/157951236@N08/53200211263/in/dateposted-public/"
+            title="shopcarthomepage"
+          >
             <img
-              src="../images/shopcarthomepage.jpg"
-              alt="Font page screenshot of the shopping cart application"
-              className="rounded-lg py-4"
+              src="https://live.staticflickr.com/65535/53200211263_71e04c4446_h.jpg"
+              width="1600"
+              height="832"
+              alt="shopcarthomepage"
             />
           </a>
+          <script
+            async
+            src="//embedr.flickr.com/assets/client-code.js"
+            charset="utf-8"
+          ></script>
           <p className="text-md text-left py-5 leading-8 text-stone-700 md:text-xl max-w-xl mx-auto dark:text-white">
             This project is a mock shopping cart application built using React.
             Meant to demonstrate and apply various concepts such as component
@@ -69,13 +79,23 @@ export function Home() {
           <h3 className="text-xl font-semibold pt-8 pb-6">
             CV Application Creator
           </h3>
-          <a href="https://denver-siu-cv-application.netlify.app/">
+          <a
+            data-flickr-embed="true"
+            href="https://www.flickr.com/photos/157951236@N08/53199793459/in/dateposted-public/"
+            title="cvapphomepage"
+          >
             <img
-              src="../images/cvapphomepage.jpg"
-              alt="Screenshot of CV Application Project's front page"
-              className="rounded-lg py-4"
+              src="https://live.staticflickr.com/65535/53199793459_6c0b373701_h.jpg"
+              width="1600"
+              height="832"
+              alt="cvapphomepage"
             />
           </a>
+          <script
+            async
+            src="//embedr.flickr.com/assets/client-code.js"
+            charset="utf-8"
+          ></script>
           <p className="text-md text-left py-5 leading-8 text-stone-700 md:text-xl max-w-xl mx-auto dark:text-white">
             The CV application allows users to input general information,
             educational experiences, and practical work experiences which are
@@ -97,7 +117,6 @@ export function Home() {
           </ul>
         </div>
       </div>
-      
     </>
   );
 }
