@@ -40,7 +40,7 @@ export function Home() {
           </h3>
           <a
             data-flickr-embed="true"
-            href="https://www.flickr.com/photos/157951236@N08/53200211263/in/dateposted-public/"
+            href="https://app.netlify.com/sites/denver-siu-shopping-cart/"
             title="shopcarthomepage"
           >
             <img
@@ -81,7 +81,7 @@ export function Home() {
           </h3>
           <a
             data-flickr-embed="true"
-            href="https://www.flickr.com/photos/157951236@N08/53199793459/in/dateposted-public/"
+            href="https://app.netlify.com/sites/denver-siu-cv-application/"
             title="cvapphomepage"
           >
             <img
