@@ -40,7 +40,7 @@ export function Home() {
           </h3>
           <a href="https://denver-siu-shopping-cart.netlify.app/">
             <img
-              src="shopcarthomepage.jpg"
+              src="https://drive.google.com/file/d/1GF9GNa6fyiMdI0ua2pk3RObWw2ZRizjb/view?usp=sharing"
               alt="Font page screenshot of the shopping cart application"
               className="rounded-lg py-4"
             />
@@ -71,7 +71,7 @@ export function Home() {
           </h3>
           <a href="https://denver-siu-cv-application.netlify.app/">
             <img
-              src="cvapphomepage.jpg"
+              src="https://drive.google.com/file/d/1uZs5Em6SHLRJ_l5vVf7dGailAnfgfzUd/view?usp=sharing"
               alt="Screenshot of CV Application Project's front page"
               className="rounded-lg py-4"
             />
