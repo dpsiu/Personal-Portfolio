@@ -81,7 +81,7 @@ export function Home() {
           </h3>
           <a
             data-flickr-embed="true"
-            href="https://denver-siu-cv-application.netlify.app/n/"
+            href="https://denver-siu-cv-application.netlify.app/"
             title="cvapphomepage"
           >
             <img
