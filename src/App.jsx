@@ -8,6 +8,8 @@ import { About } from "../Pages/About";
 import { Home } from "../Pages/Home";
 import { Footer } from "../Pages/Footer"
 
+// ctrl + shift + ` for terminal
+
 export default function App() {
   const [darkMode, setDarkMode] = useState(true);
 
@@ -15,7 +17,7 @@ export default function App() {
     <>
       <div className={darkMode ? "dark" : ""}>
         <section className=" text-stone-700 bg-white min-h-screen px-10 items-center md:px-25 lg:px-40 min-w-fit dark:bg-zinc-700 dark:text-white">
-          <nav className="py-10 mb-12 flex justify-between items-center text-xl ">
+          <nav className="py-10 mb-12 flex justify-between items-center text-l md:text-xl">
             <ul className="flex items-center gap-4">
               <h1>
                 <Link to="/">Denver Siu</Link>
