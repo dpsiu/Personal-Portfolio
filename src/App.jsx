@@ -16,8 +16,8 @@ export default function App() {
   return (
     <>
       <div className={darkMode ? "dark" : ""}>
-        <section className=" text-stone-700 bg-white min-h-screen px-10 items-center md:px-25 lg:px-40 min-w-fit dark:bg-zinc-700 dark:text-white">
-          <nav className="py-10 mb-12 flex justify-between items-center text-l md:text-xl">
+        <section className=" text-stone-700 bg-white min-h-screen px-8 items-center md:px-25 lg:px-40 min-w-fit dark:bg-zinc-700 dark:text-white">
+          <nav className="py-10 mb-12 flex justify-between items-center text-l md:text-xl lg:text-xl">
             <ul className="flex items-center gap-4">
               <h1>
                 <Link to="/">Denver Siu</Link>
@@ -30,7 +30,7 @@ export default function App() {
               <h1 className="hover:">
                 <Link to="/about">About</Link>
               </h1>
-              <li className=" bg-gradient-to-r from-indigo-500 to-orange-500 text-white px-4 py-2 rounded-md ml-8">
+              <li className=" bg-gradient-to-r from-indigo-500 to-orange-500 text-white px-4 py-2 rounded-md ml-4 md:ml-6 lg:ml-8">
                 <a href="https://drive.google.com/file/d/1DPnF6CqpTiy3mDw5hLNS6x6YxuaDcr44/view?usp=drive_link">
                   Resume
                 </a>
