@@ -56,10 +56,26 @@ export function Home() {
             charset="utf-8"
           ></script>
           <p className="text-md text-left py-5 leading-8 text-stone-700 md:text-xl max-w-xl mx-auto dark:text-white">
-            This project is a mock shopping cart application built using React.
-            Meant to demonstrate and apply various concepts such as component
-            structure, routing, state management, and interaction with APIs.
+            A mock shopping cart application built using React with a focus in
+            demonstrating and applying various concepts such as component
+            structure, routing, state management, and manipulating API data.
           </p>
+          <ul className="flex pt-2 pb-8 content-between gap-4 font-bold ">
+            <a
+              className="dark:hover:text-indigo-300 transition duration-200 hover:text-indigo-500"
+              href="https://denver-siu-shopping-cart.netlify.app/"
+            >
+              <li>Demo</li>
+            </a>
+            <li> - </li>
+
+            <a
+              className="dark:hover:text-indigo-300 transition duration-200 hover:text-indigo-500"
+              href="https://github.com/dpsiu/Shopping-Cart"
+            >
+              <li>GitHub</li>
+            </a>
+          </ul>
           <ul className="flex flex-wrap text-sm text-gray-800 gap-2 max-w-fit">
             <li className="bg-indigo-400 text-white py-2 px-4 rounded-3xl">
               HTML
@@ -97,10 +113,26 @@ export function Home() {
             charset="utf-8"
           ></script>
           <p className="text-md text-left py-5 leading-8 text-stone-700 md:text-xl max-w-xl mx-auto dark:text-white">
-            The CV application allows users to input general information,
-            educational experiences, and practical work experiences which are
-            then rendered to the right as a preview.
+            A CV Application Creator that takes user inputs and returns an
+            example resume. The projects serves as an application of React best
+            principles, components, and state management.
           </p>
+          <ul className="flex pt-2 pb-8 content-between gap-4 font-bold ">
+            <a
+              className="dark:hover:text-indigo-300 transition duration-200 hover:text-indigo-500"
+              href="https://denver-siu-cv-application.netlify.app/"
+            >
+              <li>Demo</li>
+            </a>
+            <li> - </li>
+
+            <a
+              className="dark:hover:text-indigo-300 transition duration-200 hover:text-indigo-500"
+              href="https://github.com/dpsiu/CV-Application"
+            >
+              <li>GitHub</li>
+            </a>
+          </ul>
           <ul className="flex flex-wrap text-sm text-gray-800 gap-2 max-w-fit">
             <li className="bg-indigo-400 text-white py-2 px-4 rounded-3xl">
               HTML
