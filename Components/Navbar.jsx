@@ -8,7 +8,7 @@ export function Navbar() {
   return (
     <>
       <nav className="py-10 mb-12 flex justify-between items-center text-lg md:text-xl lg:text-xl">
-        <div className="flex items-center justify-center gap-4 ">
+        <div className="flex items-center gap-4 ">
           <h1 className="dark:hover:text-indigo-400 transition duration-200 hover:text-indigo-500">
             <Link to="/">Denver Siu</Link>
           </h1>
