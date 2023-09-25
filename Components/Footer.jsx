@@ -1,4 +1,6 @@
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
+import "../src/styles.css";
+
 
 export function Footer() {
   return (

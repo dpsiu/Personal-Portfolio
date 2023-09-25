@@ -1,8 +1,9 @@
 import { useContext, useState } from "react";
 import { BsFillMoonStarsFill } from "react-icons/bs";
-import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
-import { Route, Routes, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { ModeContext } from "../src/App";
+import "../src/styles.css";
+
 
 export function Navbar() {
   const {darkMode, setDarkMode } = useContext(ModeContext)
