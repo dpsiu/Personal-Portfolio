@@ -9,15 +9,15 @@ export function Footer() {
           className="flex gap-4 items-center p-4 "
           href="https://www.linkedin.com/in/denver-siu/"
         >
-          <p>Denver Siu</p>
-          <AiFillLinkedin className="w-7 h-7 text-indigo-500 dark:text-indigo-400" />
+          <p className="dark:hover:text-indigo-300 transition duration-200 hover:text-indigo-500">Denver Siu</p>
+          <AiFillLinkedin className="w-7 h-7 text-indigo-500 dark:text-indigo-400 hover:text-orange-500 dark:hover:text-orange-400 transition duration-150" />
         </a>
         <a
           className="flex gap-4 items-center p-4"
           href="https://github.com/dpsiu"
         >
-          <p>dpsiu</p>
-          <AiFillGithub className="w-7 h-7 text-indigo-500 dark:text-indigo-400" />
+          <p className="dark:hover:text-indigo-300 transition duration-200 hover:text-indigo-500">dpsiu</p>
+          <AiFillGithub className="w-7 h-7 text-indigo-500 dark:text-indigo-400 hover:text-orange-500 dark:hover:text-orange-400 transition duration-150" />
         </a>
       </div>
     </>

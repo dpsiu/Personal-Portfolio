@@ -15,12 +15,12 @@ export function Home() {
         <ul className="text-4xl flex justify-center gap-16 text-gray-600">
           <li>
             <a href="https://www.linkedin.com/in/denver-siu/">
-              <AiFillLinkedin className="text-indigo-500 dark:text-indigo-400" />
+              <AiFillLinkedin className="text-indigo-500 dark:text-indigo-400 hover:text-orange-500 dark:hover:text-orange-400 transition duration-150" />
             </a>
           </li>
           <li>
             <a href="https://github.com/dpsiu">
-              <AiFillGithub className="text-indigo-500 dark:text-indigo-400" />
+              <AiFillGithub className="text-indigo-500 dark:text-indigo-400 hover:text-orange-500 dark:hover:text-orange-400 transition duration-150" />
             </a>
           </li>
         </ul>
@@ -125,7 +125,6 @@ export function Home() {
               <li>Demo</li>
             </a>
             <li> - </li>
-
             <a
               className="dark:hover:text-indigo-300 transition duration-200 hover:text-indigo-500"
               href="https://github.com/dpsiu/CV-Application"
