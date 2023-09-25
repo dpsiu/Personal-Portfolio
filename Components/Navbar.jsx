@@ -23,7 +23,7 @@ export function Navbar() {
             <Link to="/about">About</Link>
           </h1>
           <li className=" bg-gradient-to-r from-indigo-500 to-orange-500 text-white px-4 py-2 rounded-md ml-4 md:ml-6 lg:ml-8">
-            <a href="https://drive.google.com/file/d/1DPnF6CqpTiy3mDw5hLNS6x6YxuaDcr44/view?usp=drive_link">
+            <a href="https://drive.google.com/file/d/1B0-6OrCekHf9TCMKPToxXTFFbSWU2p-Q/view?usp=sharing">
               Resume
             </a>
           </li>
