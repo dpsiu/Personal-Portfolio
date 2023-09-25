@@ -1,5 +1,3 @@
-import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
-
 export function Home() {
   return (
     <>
@@ -15,13 +13,13 @@ export function Home() {
         <ul className="text-4xl flex justify-center gap-16 text-gray-600">
           <li>
             <a href="https://www.linkedin.com/in/denver-siu/">
-              <AiFillLinkedin className="text-indigo-500 dark:text-indigo-400 hover:text-orange-500 dark:hover:text-orange-400 transition duration-150" />
+            <span className="devicon-linkedin-plain text-4xl text-indigo-500 dark:text-indigo-400 hover:text-orange-500 dark:hover:text-orange-400 transition duration-150"></span>
               
             </a>
           </li>
           <li>
             <a href="https://github.com/dpsiu">
-              <AiFillGithub className="text-indigo-500 dark:text-indigo-400 hover:text-orange-500 dark:hover:text-orange-400 transition duration-150" />
+            <span className="devicon-github-original text-4xl text-indigo-500 dark:text-indigo-400 hover:text-orange-500 dark:hover:text-orange-400 transition duration-150"></span>
             </a>
           </li>
         </ul>
