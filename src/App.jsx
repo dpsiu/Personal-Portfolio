@@ -30,7 +30,7 @@ export default function App() {
               <h1 className="dark:hover:text-indigo-400 transition duration-200 hover:text-indigo-500">
                 <Link to="/about">About</Link>
               </h1>
-              <li className="inline-flex bg-sky-400 opacity-75 bg-gradient-to-r from-indigo-500 to-orange-500 text-white px-4 py-2 rounded-md ml-4 md:ml-6 lg:ml-8">
+              <li className=" bg-gradient-to-r from-indigo-500 to-orange-500 text-white px-4 py-2 rounded-md ml-4 md:ml-6 lg:ml-8">
                 <a href="https://drive.google.com/file/d/1DPnF6CqpTiy3mDw5hLNS6x6YxuaDcr44/view?usp=drive_link">
                   Resume
                 </a>
