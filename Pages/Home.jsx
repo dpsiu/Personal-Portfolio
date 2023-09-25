@@ -16,6 +16,7 @@ export function Home() {
           <li>
             <a href="https://www.linkedin.com/in/denver-siu/">
               <AiFillLinkedin className="text-indigo-500 dark:text-indigo-400 hover:text-orange-500 dark:hover:text-orange-400 transition duration-150" />
+              
             </a>
           </li>
           <li>

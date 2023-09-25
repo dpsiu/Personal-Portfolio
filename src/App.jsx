@@ -12,9 +12,19 @@ export const ModeContext = createContext();
 export default function App() {
   const [darkMode, setDarkMode] = useState(true);
 
+  function handleModeChange() {
+    const mode = document.getElementsByClassName("material-symbols-outlined")[0]
+    setDarkMode(!darkMode)
+    if (darkMode) {
+      mode.innerHTML = "dark_mode"
+    } else {
+      mode.innerHTML = "light_mode"
+    }
+  }
+
   return (
     <>
-      <ModeContext.Provider value={{darkMode, setDarkMode}}>
+      <ModeContext.Provider value={{darkMode, setDarkMode, handleModeChange}}>
         <div className={darkMode ? "dark" : ""}>
           <section className=" text-stone-700 bg-white min-h-screen px-8 items-center md:px-25 lg:px-40 min-w-fit dark:bg-zinc-700 dark:text-white">
             <Navbar />
