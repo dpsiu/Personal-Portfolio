@@ -37,7 +37,7 @@ export function Skills() {
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
             <p className="text-sm">NodeJS</p>
           </div>
-          <div className="flex-col justify-between items-center w-1/4 h-40 p-4">
+          <div className="flex-col justify-between items-center">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
             <p className="text-sm">Git</p>
           </div>
