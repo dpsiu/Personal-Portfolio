@@ -19,32 +19,44 @@ export function Skills() {
           </div>
           <div className="flex flex-col gap-4">
             <img
-              className="w-20 mx-auto" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+              className="w-20 mx-auto"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+            />
             <p className="">CSS</p>
           </div>
           <div className="flex flex-col gap-4">
             <img
-              className="w-20 mx-auto" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+              className="w-20 mx-auto"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+            />
             <p className="">JavaScript</p>
           </div>
           <div className="flex flex-col gap-4">
             <img
-              className="w-20 mx-auto" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+              className="w-20 mx-auto"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+            />
             <p className="">React</p>
           </div>
           <div className="flex flex-col gap-4">
             <img
-              className="w-20 mx-auto" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
+              className="w-20 mx-auto"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+            />
             <p className="">Tailwind</p>
           </div>
           <div className="flex flex-col gap-4">
             <img
-              className="w-20 mx-auto" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+              className="w-20 mx-auto"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+            />
             <p className="">NodeJS</p>
           </div>
           <div className="flex flex-col gap-4">
             <img
-              className="w-20 mx-auto" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+              className="w-20 mx-auto"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+            />
             <p className="">Git</p>
           </div>
         </section>
