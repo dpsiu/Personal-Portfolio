@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { ModeContext } from "../src/App";
 
 export function Navbar() {
-  const { darkMode, setDarkMode, handleModeChange } = useContext(ModeContext);
+  const { darkMode, setDarkMode, handleModeChange, modeText } = useContext(ModeContext);
 
   return (
     <>
@@ -13,13 +13,13 @@ export function Navbar() {
             <Link to="/">Denver Siu</Link>
           </h1>
           <span
-            onClick={() => handleModeChange(darkMode)}
+            onClick={() => handleModeChange()}
             className="material-symbols-outlined h-max cursor-pointer text-indigo-500 dark:text-orange-500 hover:text-orange-500 dark:hover:text-indigo-500 transition duration-150"
           >
-            light_mode
+            {modeText}
           </span>
         </div>
-        <div className="flex items-center ml-auto">
+        <div className="flex items-center gap-4 ml-auto">
           <h1 className="dark:hover:text-indigo-400 transition duration-200 hover:text-indigo-500">
             <Link to="/about">About</Link>
           </h1>

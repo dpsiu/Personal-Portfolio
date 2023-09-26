@@ -1,3 +1,5 @@
+import { Skills } from "../Components/Skills"
+
 export function Home() {
   return (
     <>
@@ -52,7 +54,7 @@ export function Home() {
           <script
             async
             src="//embedr.flickr.com/assets/client-code.js"
-            charset="utf-8"
+            charSet="utf-8"
           ></script>
           <p className="text-md text-left py-5 leading-8 text-stone-700 md:text-xl max-w-xl mx-auto dark:text-white">
             A mock shopping cart application built using React with a focus in
@@ -109,7 +111,7 @@ export function Home() {
           <script
             async
             src="//embedr.flickr.com/assets/client-code.js"
-            charset="utf-8"
+            charSet="utf-8"
           ></script>
           <p className="text-md text-left py-5 leading-8 text-stone-700 md:text-xl max-w-xl mx-auto dark:text-white">
             A CV Application Creator that takes user inputs and returns an
@@ -147,6 +149,7 @@ export function Home() {
           </ul>
         </div>
       </div>
+      <Skills />
     </>
   );
 }

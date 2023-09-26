@@ -16,7 +16,6 @@ export function Footer() {
         >
           <p className="dark:hover:text-indigo-300 transition duration-200 hover:text-indigo-500">dpsiu</p>
           <span className="devicon-github-original text-2xl text-indigo-500 dark:text-indigo-400 hover:text-orange-500 dark:hover:text-orange-400 transition duration-150"></span>
-          
         </a>
       </div>
     </>
