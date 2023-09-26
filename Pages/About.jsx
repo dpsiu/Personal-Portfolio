@@ -1,5 +1,4 @@
 import React from "react";
-import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 
 export function About() {
   return (
