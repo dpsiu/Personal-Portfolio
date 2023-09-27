@@ -7,7 +7,7 @@ export function Navbar() {
 
   return (
     <>
-      <nav className="flex justify-between text-lg md:text-xl lg:text-xl py-10 mb-12 ">
+      <nav className="flex justify-between w-full text-lg md:text-xl lg:text-xl py-10 mb-12 ">
         <div className="flex items-center gap-4 mr-auto">
           <h1 className="dark:hover:text-indigo-400 transition duration-200 hover:text-indigo-500">
             <Link to="/">Denver Siu</Link>

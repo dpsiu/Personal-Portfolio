@@ -3,7 +3,7 @@ import React from "react";
 export function About() {
   return (
     <>
-      <section className="max-w-4xl lg:max-w-6xl lg:text-xl lg:mx-auto">
+      <section className="flex-grow max-w-4xl lg:max-w-6xl lg:text-xl lg:mx-auto">
         <p className="text-3xl lg:text-5xl">
           Welcome! I'm <span className="text-indigo-400 font-bold">Denver</span>
         </p>
