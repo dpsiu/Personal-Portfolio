@@ -23,7 +23,7 @@ export default function App() {
     <>
       <ModeContext.Provider value={{darkMode, setDarkMode, handleModeChange, modeText}}>
         <div className={darkMode ? "dark" : ""}>
-          <section className="flex flex-col flex-grow text-stone-700 bg-white min-h-screen px-8 items-center md:px-25 lg:px-40 min-w-fit dark:bg-zinc-700 dark:text-white">
+          <section className="flex flex-col flex-grow text-stone-700 bg-white min-h-screen px-8 items-center md:px-25 lg:px-40 dark:bg-zinc-700 dark:text-white">
             <Navbar />
             <Routes>
               <Route path="/" element={<Home />} />
