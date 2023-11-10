@@ -34,6 +34,60 @@ export function Home() {
         </div>
       </section>
       <div className="lg:flex gap-10">
+      <div className="text-center shadow-lg shadow-slate-400 p-10 rounded-xl my-10 mx-auto max-w-3xl dark:text-white dark:shadow-slate-800 dark:bg-zinc-600">
+          <h3 className="text-xl font-semibold pt-8 pb-6 ">
+            Shopping Cart Application
+          </h3>
+          <a
+            data-flickr-embed="true"
+            href="https://denver-siu-shopping-cart.netlify.app/"
+            title="shopcarthomepage"
+          >
+            <img
+              src="/lebalein-homepage.png"
+              width="1600"
+              height="832"
+              alt="shopcarthomepage"
+              className="h-70"
+            />
+          </a>
+          <div className="mx-auto md:p-6">
+            <p className="text-md text-left py-5 leading-8 text-stone-700 md:text-xl  dark:text-white">
+              A mock shopping cart application built using React with a focus in
+              demonstrating and applying various concepts such as component
+              structure, routing, state management, and manipulating API data.
+            </p>
+            <ul className="flex pt-2 pb-8 content-between gap-4 font-bold ">
+              <a
+                className="dark:hover:text-indigo-300 transition duration-200 hover:text-indigo-500"
+                href="https://denver-siu-shopping-cart.netlify.app/"
+              >
+                <li>Demo</li>
+              </a>
+              <li> - </li>
+              <a
+                className="dark:hover:text-indigo-300 transition duration-200 hover:text-indigo-500"
+                href="https://github.com/dpsiu/Shopping-Cart"
+              >
+                <li>GitHub</li>
+              </a>
+            </ul>
+            <ul className="flex flex-wrap text-sm text-gray-800 gap-2 max-w-fit">
+              <li className="bg-indigo-400 text-white py-2 px-4 rounded-3xl">
+                HTML
+              </li>
+              <li className="bg-indigo-400 text-white py-2 px-4 rounded-3xl">
+                CSS
+              </li>
+              <li className="bg-indigo-400 text-white py-2 px-4 rounded-3xl">
+                JavaScript
+              </li>
+              <li className="bg-indigo-400 text-white py-2 px-4 rounded-3xl">
+                React
+              </li>
+            </ul>
+          </div>
+        </div>
         <div className="text-center shadow-lg shadow-slate-400 p-10 rounded-xl my-10 mx-auto max-w-3xl dark:text-white dark:shadow-slate-800 dark:bg-zinc-600">
           <h3 className="text-xl font-semibold pt-8 pb-6 ">
             Mortgage Calculator
@@ -93,65 +147,6 @@ export function Home() {
               </li>
               <li className="bg-indigo-400 text-white py-2 px-4 rounded-3xl">
                 Chart.js
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div className="text-center shadow-lg shadow-slate-400 p-10 rounded-xl my-10 mx-auto max-w-3xl dark:text-white dark:shadow-slate-800 dark:bg-zinc-600">
-          <h3 className="text-xl font-semibold pt-8 pb-6 ">
-            Shopping Cart Application
-          </h3>
-          <a
-            data-flickr-embed="true"
-            href="https://denver-siu-shopping-cart.netlify.app/"
-            title="shopcarthomepage"
-          >
-            <img
-              src="https://live.staticflickr.com/65535/53200211263_71e04c4446_h.jpg"
-              width="1600"
-              height="832"
-              alt="shopcarthomepage"
-              className="h-70"
-            />
-          </a>
-          <script
-            async
-            src="//embedr.flickr.com/assets/client-code.js"
-            charSet="utf-8"
-          ></script>
-          <div className="mx-auto md:p-6">
-            <p className="text-md text-left py-5 leading-8 text-stone-700 md:text-xl  dark:text-white">
-              A mock shopping cart application built using React with a focus in
-              demonstrating and applying various concepts such as component
-              structure, routing, state management, and manipulating API data.
-            </p>
-            <ul className="flex pt-2 pb-8 content-between gap-4 font-bold ">
-              <a
-                className="dark:hover:text-indigo-300 transition duration-200 hover:text-indigo-500"
-                href="https://denver-siu-shopping-cart.netlify.app/"
-              >
-                <li>Demo</li>
-              </a>
-              <li> - </li>
-              <a
-                className="dark:hover:text-indigo-300 transition duration-200 hover:text-indigo-500"
-                href="https://github.com/dpsiu/Shopping-Cart"
-              >
-                <li>GitHub</li>
-              </a>
-            </ul>
-            <ul className="flex flex-wrap text-sm text-gray-800 gap-2 max-w-fit">
-              <li className="bg-indigo-400 text-white py-2 px-4 rounded-3xl">
-                HTML
-              </li>
-              <li className="bg-indigo-400 text-white py-2 px-4 rounded-3xl">
-                CSS
-              </li>
-              <li className="bg-indigo-400 text-white py-2 px-4 rounded-3xl">
-                JavaScript
-              </li>
-              <li className="bg-indigo-400 text-white py-2 px-4 rounded-3xl">
-                React
               </li>
             </ul>
           </div>
