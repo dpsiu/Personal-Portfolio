@@ -36,7 +36,7 @@ export function Home() {
       <div className="lg:flex gap-10">
       <div className="text-center shadow-lg shadow-slate-400 p-10 rounded-xl my-10 mx-auto max-w-3xl dark:text-white dark:shadow-slate-800 dark:bg-zinc-600">
           <h3 className="text-xl font-semibold pt-8 pb-6 ">
-            Shopping Cart Application
+            LeBalein
           </h3>
           <a
             data-flickr-embed="true"
