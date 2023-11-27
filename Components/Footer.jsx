@@ -8,19 +8,19 @@ export function Footer() {
           className="flex gap-2 items-center p-2"
           href="https://www.linkedin.com/in/denver-siu/"
         >
-          <p className="dark:hover:text-indigo-300 transition duration-200 hover:text-indigo-500">
+          {/* <p className="dark:hover:text-indigo-300 transition duration-200 hover:text-indigo-500">
             Denver Siu
-          </p>
-          <span className="devicon-linkedin-plain text-2xl text-indigo-500 dark:text-indigo-400 hover:text-orange-500 dark:hover:text-orange-400 transition duration-150"></span>
+          </p> */}
+          <span className="devicon-linkedin-plain lg:text-2xl text-3xl text-indigo-500 dark:text-indigo-400 hover:text-orange-500 dark:hover:text-orange-400 transition duration-150"></span>
         </a>
         <a
           className="flex gap-2 items-center p-2"
           href="https://github.com/dpsiu"
         >
-          <p className="dark:hover:text-indigo-300 transition duration-200 hover:text-indigo-500">
+          {/* <p className="dark:hover:text-indigo-300 transition duration-200 hover:text-indigo-500">
             dpsiu
-          </p>
-          <span className="devicon-github-original text-2xl text-indigo-500 dark:text-indigo-400 hover:text-orange-500 dark:hover:text-orange-400 transition duration-150"></span>
+          </p> */}
+          <span className="devicon-github-original lg:text-2xl text-3xl text-indigo-500 dark:text-indigo-400 hover:text-orange-500 dark:hover:text-orange-400 transition duration-150"></span>
         </a>
       </div>
     </>

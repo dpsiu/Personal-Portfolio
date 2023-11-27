@@ -34,10 +34,8 @@ export function Home() {
         </div>
       </section>
       <div className="lg:flex gap-10">
-      <div className="text-center shadow-lg shadow-slate-400 p-10 rounded-xl my-10 mx-auto max-w-3xl dark:text-white dark:shadow-slate-800 dark:bg-zinc-600">
-          <h3 className="text-xl font-semibold pt-8 pb-6 ">
-            LeBalein
-          </h3>
+        <div className="flex-1 text-center shadow-lg shadow-slate-400 p-10 rounded-xl my-10 mx-auto max-w-3xl dark:text-white dark:shadow-slate-800 dark:bg-zinc-600">
+          <h3 className="text-xl font-semibold pt-8 pb-6 ">LeBalein</h3>
           <a
             data-flickr-embed="true"
             href="https://denver-siu-shopping-cart.netlify.app/"
@@ -48,7 +46,7 @@ export function Home() {
               width="1600"
               height="832"
               alt="shopcarthomepage"
-              className="h-70"
+              className="w-full h-auto"
             />
           </a>
           <div className="mx-auto md:p-6">
@@ -88,7 +86,7 @@ export function Home() {
             </ul>
           </div>
         </div>
-        <div className="text-center shadow-lg shadow-slate-400 p-10 rounded-xl my-10 mx-auto max-w-3xl dark:text-white dark:shadow-slate-800 dark:bg-zinc-600">
+        <div className="flex-1 text-center shadow-lg shadow-slate-400 p-10 rounded-xl my-10 mx-auto max-w-3xl dark:text-white dark:shadow-slate-800 dark:bg-zinc-600">
           <h3 className="text-xl font-semibold pt-8 pb-6 ">
             Mortgage Calculator
           </h3>
@@ -102,6 +100,7 @@ export function Home() {
               width="1600"
               height="1000"
               alt="Mortgage Calculator Homepage"
+              className="w-full h-auto"
             />
           </a>
           <script
@@ -151,7 +150,7 @@ export function Home() {
             </ul>
           </div>
         </div>
-        <div className="text-center shadow-lg shadow-slate-400 p-10 rounded-xl my-10 mx-auto max-w-3xl dark:text-white dark:shadow-slate-800 dark:bg-zinc-600">
+        <div className="flex-1 text-center shadow-lg shadow-slate-400 p-10 rounded-xl my-10 mx-auto max-w-3xl dark:text-white dark:shadow-slate-800 dark:bg-zinc-600">
           <h3 className="text-xl font-semibold pt-8 pb-6">
             CV Application Creator
           </h3>
@@ -165,7 +164,7 @@ export function Home() {
               width="1600"
               height="832"
               alt="cvapphomepage"
-              className="h-70"
+              className="w-full h-auto"
             />
           </a>
           <script
