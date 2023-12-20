@@ -67,6 +67,7 @@ export function Home() {
           <a
             data-flickr-embed="true"
             href="https://denver-siu-shopping-cart.netlify.app/"
+            target="_blank"
             title="shopcarthomepage"
           >
             <img
@@ -121,6 +122,7 @@ export function Home() {
           <a
             data-flickr-embed="true"
             href="https://mortgage-calculator-denver-siu.netlify.app/"
+            target="_blank"
             title="Mortgage Calculator Homepage"
           >
             <img
@@ -185,6 +187,7 @@ export function Home() {
           <a
             data-flickr-embed="true"
             href="https://denver-siu-cv-application.netlify.app/"
+            target="_blank"
             title="cvapphomepage"
           >
             <img

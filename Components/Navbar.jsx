@@ -24,7 +24,8 @@ export function Navbar() {
             <Link to="/about">About</Link>
           </h1>
           <div className=" bg-gradient-to-r from-indigo-500 to-orange-500 text-white px-2 py-2 md:px-4 rounded-md">
-            <a href="https://drive.google.com/file/d/1QwJGZqTpPsJ0OakB9LeHDgCD98EtRx-A/view?usp=sharing">
+            
+            <a href="https://drive.google.com/file/d/1dDG9dV7yF4aUqAFKNMRY7huc93bLqkp3/view?usp=sharing" target="_blank">
               Resume
             </a>
           </div>
